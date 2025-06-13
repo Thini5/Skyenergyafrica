@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif
+}
+
+
+
+
+/* Overlay */
+.overlay{
+	position:relative;
+}
+.overlay:before{
+	position:absolute;
+	content:"";
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:#1a76d1;
+	opacity:0.9;
+}
+
+
+
+
+
+
+
+
+/* Section Container */
+.news-section {
+  background-color: #ffffff; /* Light background for contrast */
+  padding: 10px 20px; /* Padding around the section */
+  text-align: center; /* Center align text */
+}
+
+/* Title Styling */
+.news-updates {
+  font-size: 3em; /* Large font size for title */
+  font-weight: bold; /* Bold text */
+  color: #1A76D1; /* Dark blue color */
+  margin-bottom: 20px; /* Space below the title */
+  margin-top: 20px;
+}
+
+/* News Container */
+.news-container {
+  display: flex; /* Use Flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping to multiple lines */
+  gap: 10px; /* Space between items */
+  margin-top: 20px; /* Space above the container */
+  justify-content: center; /* Center align items */
+}
+
+/* News Item */
+.news-item {
+  background: #ffffff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Padding inside the item */
+  text-align: left; /* Left-align text */
+  flex: 1 1 30%; /* Flex-grow, shrink, and basis for responsive layout */
+  max-width: 300px; /* Max width of each news item */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+/* News Image */
+.news-img {
+  width: 100%; /* Full width of the news item container */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect for Image */
+.news-img:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* News Title */
+.news-title {
+  font-size: 16px; /* Font size for title */
+  font-weight: bold; /* Bold text */
+  color: #1e1f46; /* Dark color for text */
+  margin-top: 10px; /* Space above the title */
+  text-decoration: none; /* Remove underline from links */
+  display: block; /* Block display to ensure proper spacing */
+}
+
+/* News Date */
+.news-date {
+  font-size: 1em; /* Font size for date */
+  color: #666; /* Light grey color for text */
+  margin-top: 10px; /* Space above the date */
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .news-container {
+    flex-direction: column; /* Stack news items vertically on small screens */
+    align-items: center; /* Center align news items */
+  }
+
+  .news-item {
+    max-width: 100%; /* Full width on small screens */
+  }
+}

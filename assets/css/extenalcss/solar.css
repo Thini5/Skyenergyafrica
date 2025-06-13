@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif
+}
+
+
+/* Overlay */
+.overlay{
+	position:relative;
+}
+.overlay:before{
+	position:absolute;
+	content:"";
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:#1a76d1;
+	opacity:0.9;
+}
+
+
+.products .product .hover-content {
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #00c8d7;
+  color: rgb(255, 255, 255);
+  padding: 0px 13px;
+  font-size: 10px;
+  display: none;
+}
+
+.products .product:hover .hover-content {
+  display: block; /* Shows the "Learn more" text when hovering */
+}
+
+
+
+
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 250px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  margin: 15px 0 10px;
+  font-size: 1.2em;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+.product p {
+  color: #666;
+  font-size: 1.0em;
+  line-height: 1.5;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+
+
+
+.text-overlay {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 20px;
+  
+  
+  
+}
+
+
+

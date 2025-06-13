@@ -1,0 +1,69 @@
+.solar-ev-productss {
+  padding: 40px 20px;
+  background-color: #f5fff5;
+  font-family: Arial, sans-serif;
+  color: #2e2e2e;
+}
+
+.containerss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: #fff;
+}
+
+.systemss {
+  flex: 1;
+  min-width: 300px;
+  max-width: 48%;
+  text-align: left;
+}
+
+.system-image {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.divider {
+  width: 2px;
+  background: #181717;
+  height: auto;
+}
+
+.power-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.equipment-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+
+.hiclass {
+  font-size: 24px;
+  color: #2b572e;
+  margin-top: 10px;
+}
+
+.himclass {
+  font-size: 18px;
+  color: #006400;
+  margin: 5px 0;
+}
+
+.piclass {
+  font-size: 16px;
+  margin: 10px 0;
+}

@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+
+
+
+
+
+
+/* Bread Crumbs */
+.breadcrumbss {
+	background-image: url('../img/Who\ we\ are.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 180px 0px;
+}
+.breadcrumbss .bread-innerr{
+	z-index:22;
+	text-align:center;
+}
+.breadcrumbss h2{
+	color: #fff;
+	text-transform:capitalize;
+	font-size: 35px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+  margin-bottom: 80px;
+}
+.breadcrumbss h1{
+	color: #fff;
+	text-transform:capitalize;
+	font-size: 45px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+.breadcrumbss .bread-list {
+	display: inline-block;
+	margin-top: 20px;
+}
+.breadcrumbs ul li{
+	display: inline-block;
+	position: relative;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.breadcrumbs ul li i {
+	margin: 0px 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color:#fff;
+}
+.breadcrumbs ul li a {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin:0;
+	padding:0;
+}
+.breadcrumbs ul li a:hover{
+	color:#2C2D3F;
+}
+.breadcrumbs ul li.active a {
+	color: #fff;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* capabilities*/
+.capabilities-container {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  flex-wrap: wrap;
+  
+ 
+}
+
+.capabilities-text {
+  flex: 1;
+  padding-right: 10px;
+  background-color: #f8ee37;
+  border-radius: 1%;
+}
+
+
+
+.what {
+  margin-left: 13px;
+  margin-bottom: 6px;
+}
+
+
+.capabilities-text h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.capabilities-image {
+  flex: 0 0 400px;
+}
+
+.capabilities-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1%;
+}
+
+h1 {
+  font-size: 2em;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+p:last-of-type {
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .capabilities-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .capabilities-image {
+    flex: 0 0 100%;
+    margin-top: 20px;
+  }
+
+  .capabilities-text {
+    padding-right: 0;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+/* capabilities end*/
+
+/* capabilities start*/
+.awards-section {
+  background-color: #006196;
+}
+.awards-title {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.award {
+  display: inline-block; /* Allow award to be treated as a block */
+  text-align: center; /* Center-align text under the ribbon */
+ margin-left: 60px;
+}
+.award-ribbon {
+  display: block; /* Make ribbon a block element */
+  width: 50px; /* Set the width of your ribbon image */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto 10px; /* Center ribbon and add space below */
+}
+.award p {
+  display: inline-block; /* Keep award text inline-block for flexibility */
+  color: #fffbfb;
+}
+.award-details {
+  font-size: 0.9em; /* Adjust the font size if needed */
+  color: #fffbfb; /* Set a lighter color for detail text */
+  margin-top: 5px; /* Space between the award title and details */
+}
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .award {
+    flex: 0 1 48%; /* Awards will take up 48% of the width on smaller screens */
+    margin: 10px 0; /* Remove horizontal margin */
+  }
+  .award-ribbon {
+    width: 60px; /* Increase ribbon size slightly on smaller screens */
+  }
+  .award-details {
+    font-size: 0.8em; /* Adjust font size for better readability on small screens */
+  }
+}
+
+/* For Very Small Screens */
+@media (max-width: 480px) {
+  .award {
+    flex: 0 1 100%; /* Make each award full-width on very small screens */
+    margin: 15px 0; /* Add vertical spacing between awards */
+  }
+
+  .award-ribbon {
+    width: 70px; /* Make ribbon slightly bigger on very small screens */
+  }
+
+  .award-details {
+    font-size: 0.7em; /* Further reduce font size for better mobile readability */
+  }
+}
+/* awards end*/
+
+
+/* Team Section start */
+.team-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.team-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member {
+  flex: 0 1 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.team-image {
+  width: 100px;
+  height: auto;
+  border-radius: 30%;
+  margin-bottom: 2px;
+}
+
+.team-name {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.team-position {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Make the team section responsive */
+@media (max-width: 768px) {
+  .team-member {
+    flex: 0 1 45%; /* Team members take 45% of the width on smaller screens */
+    margin: 10px 0; /* Reduce margin */
+  }
+
+  .team-image {
+    width: 80px; /* Adjust image size */
+  }
+
+  .team-title {
+    font-size: 1.6em; /* Adjust font size */
+  }
+
+  .team-name {
+    font-size: 1em; /* Adjust name size */
+  }
+
+  .team-position {
+    font-size: 0.8em; /* Adjust position font size */
+  }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2em; /* Further reduce font size */
+  }
+
+  p {
+    font-size: 12px; /* Smaller font size */
+  }
+
+  .capabilities-container {
+    padding: 10px; /* Less padding on very small screens */
+  }
+
+  .capabilities-text {
+    padding-right: 0;
+  }
+
+  .capabilities-image {
+    margin-top: 10px;
+  }
+
+  .team-member {
+    flex: 0 1 100%; /* Make team members full-width */
+    margin: 10px 0;
+  }
+
+  .team-image {
+    width: 70px; /* Adjust team image size */
+  }
+
+  .team-title {
+    font-size: 1.4em;
+  }
+
+  .team-name {
+    font-size: 0.9em;
+  }
+}
+/* team end*/
+
+
+
+
+

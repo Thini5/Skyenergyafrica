@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif
+}
+
+
+
+
+
+/* Bread Crumbs */
+.breadcrumbss1 {
+	background-image: url('../img/EVS.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 180px 0px;
+}
+.breadcrumbss .bread-innerr1{
+	z-index:22;
+	text-align:center;
+}
+.breadcrumbss1 h2{
+	color: #fff;
+	text-transform:capitalize;
+	font-size: 45px;
+	font-weight: 700;
+	margin-left: 400px;
+	padding: 0;
+  
+}
+.breadcrumbss1 h1{
+	color: #fff;
+	text-transform:capitalize;
+	font-size: 45px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+.breadcrumbss1 .bread-list {
+	display: inline-block;
+	margin-top: 20px;
+}
+.breadcrumbs ul li{
+	display: inline-block;
+	position: relative;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.breadcrumbs ul li i {
+	margin: 0px 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color:#fff;
+}
+.breadcrumbs ul li a {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin:0;
+	padding:0;
+}
+.breadcrumbs ul li a:hover{
+	color:#2C2D3F;
+}
+.breadcrumbs ul li.active a {
+	color: #fff;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.product {
+  background-color: #fcfcfc;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 350px;
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  margin: 15px 0 10px;
+  font-size: 1.2em;
+}
+
+.product p {
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
