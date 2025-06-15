@@ -182,7 +182,7 @@ a.border-button:hover {
 
 /*Sub-header start */
 .sub-header {
-	background-color: #044a10;
+	background-color: #007835;
 	height: 46px;
 	line-height: 46px;
 }
@@ -542,7 +542,7 @@ ul.slick-dots {
 
 /* Request Form start*/
 .request-form {
-	background-color: #044a10;
+	background-color: #007835;
 	padding: 40px 0px;
 	color: #fff;
 }
@@ -577,7 +577,7 @@ ul.slick-dots {
 }
 
 .more-info .more-info-content {
-	background-color: #044a10;
+	background-color: #007835;
 }
 
 .about-info .more-info-content {
@@ -662,7 +662,7 @@ ul.slick-dots {
 }
 
 .service-item .down-content {
-	background-color: #044a10;
+	background-color: #007835;
 	padding: 30px;
 }
 
@@ -812,7 +812,7 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form {
-	background-color: #044a10;
+	background-color: #007835;
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
@@ -942,7 +942,7 @@ ul.slick-dots {
 /* Footer Style */
 
 footer {
-	background-color: #044a10;
+	background-color: #007835;
 	padding: 80px 0px;
 	color: #fff;
 }
