@@ -572,8 +572,10 @@ ul.slick-dots {
 }
 
 .more-info .left-image img {
-	width: 80%;
-	overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .more-info .more-info-content {
