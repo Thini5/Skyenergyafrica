@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans');
+
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -132,6 +132,20 @@ h3 {
 .service3:hover {
   border: 2px solid #00aff0;
 }
+
+.service4 i,
+.service4 h4,
+.service4 .cta {
+  color: #bcf10c;
+}
+
+.service4:hover {
+  border: 2px solid #bcf10c;
+}
+
+
+
+
 
 .service .cta span {
   font-size: 0.6rem;
