@@ -35,10 +35,11 @@ p {
 }
 
 section {
-  max-width: 1000px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   text-align: center;
   padding: 30px;
+  
 }
 
 h3 {
