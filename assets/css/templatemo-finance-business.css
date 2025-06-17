@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #044a10;
+	background-color: #007835;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -68,7 +68,7 @@ a.border-button {
 
 a.border-button:hover {
 	background-color: #fff;
-	color: #044a10;
+	color: #007835;
 }
 
 .section-heading {
@@ -100,7 +100,7 @@ a.border-button:hover {
 /* Preloader end */
 #preloader {
   overflow: hidden;
-  background: #044a10;
+  background: #007835;
   left: 0;
   right: 0;
   top: 0;
