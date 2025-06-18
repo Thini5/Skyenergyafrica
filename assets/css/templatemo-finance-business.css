@@ -829,24 +829,17 @@ h3 {
 /* Our projects start */
 
 .fun-facts {
-	margin-top: 40px;
+	margin-top: 3px;
 	background-image: url(../images/Main/Total.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	padding: 140px 0px;
+	padding: 80px 0px;
 	color: #fff;
 }
 
-.fun-facts span {
-	text-transform: uppercase;
-	font-size: 15px;
-	color: #fff;
-	letter-spacing: 1px;
-	margin-bottom: 10px;
-	display: block;
-}
+
 
 .fun-facts h2 {
 	font-size: 36px;
@@ -856,7 +849,7 @@ h3 {
 
 .fun-facts em {
 	font-style: normal;
-	color: #bcf10c;
+	color: #00aff0;
 }
 
 .fun-facts p {
@@ -877,7 +870,7 @@ h3 {
 
 .count-digit {
     margin: 5px 0px;
-    color: #bcf10c;
+    color: #00aff0;
     font-weight: 700;
     font-size: 36px;
 }
@@ -894,7 +887,7 @@ h3 {
 
 .callback-form .section-heading em {
 	font-style: normal;
-	color: #00a904;
+	color: #007835;
 }
 
 .callback-services {
@@ -917,7 +910,7 @@ h3 {
 }
 
 .callback-form .contact-form {
-	background-color: #007835;
+	background-image: linear-gradient(135deg, #272a8b, #007835); /* example green shades */
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
@@ -1042,13 +1035,10 @@ h3 {
 	margin: auto;
 }
 
-
-
-
 /* Footer Style */
 
 footer {
-	background-color: #007835;
+	background-image: linear-gradient(135deg, #272a8b, #007835); /* example green shades */
 	padding: 80px 0px;
 	color: #fff;
 }
