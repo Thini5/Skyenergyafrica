@@ -317,14 +317,14 @@ header .navbar {
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
 	color: #25aae2;
-	border-bottom: 3px solid #aeaeae;
+	border-bottom: 3px solid #ffffff;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
 }
 .navbar .navbar-toggler {
 	border-color: #fff;
-	background-color: #fff;	
+	background-color: #44e91b;	
 	height: 36px;
 	outline: none;
 	border-radius: 0px;
