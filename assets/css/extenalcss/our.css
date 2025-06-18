@@ -45,7 +45,7 @@ section {
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: #333;
+  color: #007835;
   font-size: 1.825rem;
   margin: 1.3rem 0;
 }
@@ -63,7 +63,7 @@ h3 {
 .service h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: #56ceba;
+  color: #007835;
   font-size: 1.3rem;
   margin: 1rem 0 0.6rem;
 }
@@ -106,41 +106,41 @@ h3 {
 .service1 i,
 .service1 h4,
 .service1 .cta {
-  color: #00a904;
+  color: #007835;
 }
 
 .service1:hover {
-  border: 2px solid #00a904;
+  border: 2px solid #007835;
 }
 
 .service2 i,
 .service2 h4,
 .service2 .cta {
-  color: #f1592a;
+  color: #007835;
 }
 
 .service2:hover {
-  border: 2px solid #f1592a;
+  border: 2px solid #007835;
 }
 
 .service3 i,
 .service3 h4,
 .service3 .cta {
-  color: #00aff0;
+  color: #007835;
 }
 
 .service3:hover {
-  border: 2px solid #00aff0;
+  border: 2px solid #007835;
 }
 
 .service4 i,
 .service4 h4,
 .service4 .cta {
-  color: #bcf10c;
+  color: #007835;
 }
 
 .service4:hover {
-  border: 2px solid #bcf10c;
+  border: 2px solid #007835;
 }
 
 
