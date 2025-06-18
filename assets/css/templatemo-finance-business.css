@@ -182,7 +182,7 @@ a.border-button:hover {
 
 /*Sub-header start */
 .sub-header {
-	background-color: #007835;
+	background-image: linear-gradient(135deg, #272a8b, #007835); /* example green shades */
 	height: 46px;
 	line-height: 46px;
 }
@@ -567,7 +567,7 @@ ul.slick-dots {
 /* More Info start*/
 
 .more-info {
-	margin-top: 25px;
+	margin-top: 2px;
 }
 
 .more-info .left-image img {
