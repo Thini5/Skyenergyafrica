@@ -389,7 +389,7 @@ header .navbar {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height:75vh;
+	height:95vh;
 }
 
 .Modern-Slider .item-1 .img-fill {
@@ -541,7 +541,7 @@ ul.slick-dots {
 
 /* Request Form start*/
 .request-form {
-	background-color: #007835;
+	background-image: linear-gradient(135deg, #007835, #272a8b); /* example green shades */
 	padding: 40px 0px;
 	color: #fff;
 }
