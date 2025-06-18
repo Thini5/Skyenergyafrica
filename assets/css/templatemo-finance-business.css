@@ -578,7 +578,7 @@ ul.slick-dots {
 }
 
 .more-info .more-info-content {
-	background-color: #007835;
+	background-image: linear-gradient(135deg, #007835, #272a8b); /* example green shades */
 }
 
 .about-info .more-info-content {
@@ -717,7 +717,7 @@ ul.slick-dots {
 
 .service-item .down-content a.border-button:hover {
 	background-color: #fff;
-	color: #044a10;
+	color: #d5e40e;
 }
 /* Services End */
 

@@ -76,7 +76,7 @@ h3 {
 }
 
 .service {
-  background: #fff;
+ background-image: linear-gradient(135deg, #007835, #272a8b); /* example green shades */
   margin: 20px;
   padding: 20px;
   border-radius: 4px;
@@ -106,7 +106,7 @@ h3 {
 .service1 i,
 .service1 h4,
 .service1 .cta {
-  color: #007835;
+  color: #f4f7f5;
 }
 
 .service1:hover {
@@ -116,7 +116,7 @@ h3 {
 .service2 i,
 .service2 h4,
 .service2 .cta {
-  color: #007835;
+  color: #f1f5f3;
 }
 
 .service2:hover {
@@ -126,7 +126,7 @@ h3 {
 .service3 i,
 .service3 h4,
 .service3 .cta {
-  color: #007835;
+  color: #fafdfc;
 }
 
 .service3:hover {
@@ -136,7 +136,7 @@ h3 {
 .service4 i,
 .service4 h4,
 .service4 .cta {
-  color: #007835;
+  color: #f7faf8;
 }
 
 .service4:hover {
