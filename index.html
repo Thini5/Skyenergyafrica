@@ -17,9 +17,8 @@
        <link rel="stylesheet" href="assets/css/fontawesome.css">
        <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
        <link rel="stylesheet" href="assets/css/owl.css">
-
-
-
+       <link rel="stylesheet" href="assets/css/client.css">
+   
        
     <!-- Favicon -->
        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
@@ -29,8 +28,6 @@
        <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
        <link rel="stylesheet" href="assets/css/extenalcss/our.css">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-     
-
   
 </head>
 
@@ -366,7 +363,7 @@
 
 <!-- Start clients -->
 		
-   <div class="partners">
+   <!--<div class="partners">
       <div class="container">
         <div class="row">
         <div class="col-md-12">
@@ -441,8 +438,14 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
 
+ <section id="client">
+    <div class="client-image-container">
+      <h2>Our Client</h2>
+      <img src="assets/images/Clients/Asset-4@4x.png" alt="Our Client" />
+    </div>
+  </section>
 
     <!-- Footer Starts Here -->
     <footer>
@@ -543,24 +546,14 @@
     }
   }
 </script>
-
-
 <script>
-  $(document).ready(function(){
-    $(".owl-partners").owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      autoplay: true,
-      autoplayTimeout: 2000,
-      autoplayHoverPause: true,
-      responsive: {
-        0: { items: 2 },
-        600: { items: 4 },
-        1000: { items: 6 }
-      }
-    });
-  });
+	$('.carousel-client').bxSlider({
+		auto: true,
+	    slideWidth: 234,
+	    minSlides: 2,
+	    maxSlides: 5,
+	    controls: false
+	});
 </script>
 
 

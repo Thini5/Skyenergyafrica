@@ -1,0 +1,32 @@
+section#client {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      background-color: #ffffff;
+    }
+
+    .client-image-container {
+      width: 100%;
+      max-width: 800px;
+      text-align: center;
+    }
+
+    .client-image-container h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .client-image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 600px) {
+      .client-image-container h2 {
+        font-size: 1.5rem;
+      }
+    }
