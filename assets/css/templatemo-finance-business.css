@@ -113,7 +113,75 @@ a.border-button:hover {
 }
 /* section */
 
+/* page-heading start */
+.page-heading {
+	text-align: center;
+	background-image: url(../images/Main/projetcs.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
 
+.page-headings {
+	text-align: center;
+	background-image: url(../images/Main/joyteam.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+
+.page-headingsnews {
+	text-align: center;
+	background-image: url(../images/Main/newsup.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+
+.page-headingservice {
+	text-align: center;
+	background-image: url(../images/Main/CFAOinverter.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+
+.page-headingcontactus {
+	text-align: center;
+	background-image: url(../images/Main/contactus.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+
+
+.page-heading h1 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+
+.page-heading span {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	display: block;
+}
+
+/* Page -heading end */
 
 /* Preloader end */
 #preloader {
@@ -1199,163 +1267,8 @@ footer .contact-form button.filled-button:hover {
 	color: #fff;
 }
 
-/* About page */
-.about-page {
-    background: #f9f9f9;
-    padding: 80px 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-  }
-
-  .about-page h1 {
-    font-size: 42px;
-    font-weight: 700;
-    color: #f0f1f0;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-  .about-page h6 {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
-    color: #fffbfb;
-  }
 
 
-  .header-text h6 {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
-    color: #fffbfb;
-  }
-
-  @media (max-width: 768px) {
-    .about-page {
-      padding: 60px 20px;
-    }
-
-    .about-page h1 {
-      font-size: 32px;
-    }
-
-    .about-page h6 {
-      font-size: 16px;
-    }
-  }
-/* About page */
-
-
-.page-heading {
-	text-align: center;
-	background-image: url(../images/Main/projetcs.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 230px 0px 150px 0px;
-	color: #fff;
-}
-
-.page-headings {
-	text-align: center;
-	background-image: url(../images/Main/joyteam.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 230px 0px 150px 0px;
-	color: #fff;
-}
-
-.page-headingsnews {
-	text-align: center;
-	background-image: url(../images/Main/newsup.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 230px 0px 150px 0px;
-	color: #fff;
-}
-
-.page-headingservice {
-	text-align: center;
-	background-image: url(../images/Main/CFAOinverter.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 230px 0px 150px 0px;
-	color: #fff;
-}
-
-.page-headingcontactus {
-	text-align: center;
-	background-image: url(../images/Main/contactus.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 230px 0px 150px 0px;
-	color: #fff;
-}
-
-
-.page-heading h1 {
-	text-transform: capitalize;
-	font-size: 36px;
-	font-weight: 700;
-	letter-spacing: 2px;
-	margin-bottom: 18px;
-}
-
-.page-heading span {
-	font-size: 15px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #fff;
-	display: block;
-}
-
-
-/* team */
-
-.team {
-	background-color: #f7f7f7;
-	margin-top: 0;
-	margin-bottom: -140px;
-	padding: 120px 0px;
-}
-
-.team-item img {
-	width: 100%;
-	overflow: hidden;
-}
-
-.team-item .down-content {
-	background-color: #fff;
-	padding: 30px;
-}
-
-.team-item .down-content h4 {
-	font-size: 20px;
-	font-weight: 700;
-	letter-spacing: 0.25px;
-	margin-bottom: 10px;
-}
-
-.team-item .down-content span {
-	color: #a4c639;
-	font-weight: 600;
-	font-size: 14px;
-	display: block;
-	margin-bottom: 15px;
-}
-
-.team-item .down-content p {
-	margin-bottom: 20px;
-}
 
 
 /* Single Service */
@@ -1427,7 +1340,7 @@ footer .contact-form button.filled-button:hover {
   margin-bottom: 0px;
 }
 
-
+/* Single Service end */
 
 /* Contact Information */
 
@@ -1464,7 +1377,7 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 }
 
-
+/* Contact Information End*/
 
 
 /* Responsive Style */
@@ -1579,106 +1492,6 @@ footer .contact-form button.filled-button:hover {
 	}
 }
 
-
-
-
-
-
-/* Hero Section starts here*/
-.hero {
-    background-color: #00aff0;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 2.5em;
-    color: #f0f0f0;
-}
-
-.hero p {
-    font-size: 1.2em;
-    color: #e7e3e3;
-    margin-top: 20px;
-}
-
-.cta-btn {
-    background-color: #ff5c5c;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1em;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-.cta-btn:hover {
-    background-color: #ff3b3b;
-}
-
-/* Video Section */
-.video {
-    padding: 20px;
-    text-align: center;
-    background-color: #fff;
-    margin: 20px 0;
-}
-
-.video iframe {
-    width: 100%;
-    max-width: 600px;
-    height: 350px;
-}
-
-/* Images Section */
-.images {
-    padding: 20px;
-    background-color: #fff;
-    text-align: center;
-}
-
-.image-gallery {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.image {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif
-}
-
-/* Overlay */
-.overlay{
-	position:relative;
-}
-.overlay:before{
-	position:absolute;
-	content:"";
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	background:#1a76d1;
-	opacity:0.9;
-}
-/* Hero Section end here*/
 
 
 /* News Section Container starts here */
@@ -1922,121 +1735,6 @@ a {
 
 
 
-
-
-
-
-/* capabilities*/
-.capabilities-text h1 {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-
-
-
-p {
-  font-size: 16px;
-  line-height: 1.6;
-  padding-left: 10px;
-  margin: 10px 0;
-}
-
-p:last-of-type {
-  margin-bottom: 20px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .capabilities-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .capabilities-image {
-    flex: 0 0 100%;
-    margin-top: 20px;
-  }
-
-  .capabilities-text {
-    padding-right: 0;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  p {
-    font-size: 14px;
-  }
-}
-/* capabilities end*/
-
-/* awards start*/
-.awards-section .award H6 {
-  color: #bcf10c;
-}
-
-.awards-section {
-  background-color: #044a10;
-}
-.awards-title {
-  text-align: center;
-  color: #ffffff;
-  padding-top: 20px;
-}
-
-.award {
-  display: inline-block; /* Allow award to be treated as a block */
-  text-align: center; /* Center-align text under the ribbon */
- margin-left: 60px;
-}
-.award-ribbon {
-  display: block; /* Make ribbon a block element */
-  width: 50px; /* Set the width of your ribbon image */
-  height: auto; /* Maintain aspect ratio */
-  margin: 0 auto 10px; /* Center ribbon and add space below */
-}
-.award p {
-  display: inline-block; /* Keep award text inline-block for flexibility */
-  color: #fffbfb;
-}
-.award-details {
-  font-size: 0.9em; /* Adjust the font size if needed */
-  color: #fffbfb; /* Set a lighter color for detail text */
-  margin-top: 5px; /* Space between the award title and details */
-}
-/* Responsive Design for Small Screens */
-@media (max-width: 768px) {
-  .award {
-    flex: 0 1 48%; /* Awards will take up 48% of the width on smaller screens */
-    margin: 10px 0; /* Remove horizontal margin */
-  }
-  .award-ribbon {
-    width: 60px; /* Increase ribbon size slightly on smaller screens */
-  }
-  .award-details {
-    font-size: 0.8em; /* Adjust font size for better readability on small screens */
-  }
-}
-
-/* For Very Small Screens */
-@media (max-width: 480px) {
-  .award {
-    flex: 0 1 100%; /* Make each award full-width on very small screens */
-    margin: 15px 0; /* Add vertical spacing between awards */
-  }
-
-  .award-ribbon {
-    width: 70px; /* Make ribbon slightly bigger on very small screens */
-  }
-
-  .award-details {
-    font-size: 0.7em; /* Further reduce font size for better mobile readability */
-  }
-}
-/* awards end*/
 
 
 
