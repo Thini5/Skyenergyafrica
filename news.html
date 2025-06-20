@@ -116,69 +116,147 @@
     </div>
 
 
-<!-- News section starts here -->
-<div class="news-section">
-			
-			<div class="news-container">
-			  <div class="news-item">
-				<img src="assets/images/News/Green Earth/Greenearthtitle.jpg" class="news-img">
-				<a href="Green Earth.html" class="news-title">Sky Energy Africa Launches ‘Green Earth’ Project on Michiru Mountain</a>
-				<p class="news-date">by Sky Admin | Feb 17, 2024 | Uncategorized</p>
-			  
-			  </div>
-			  <div class="news-item">
-				<img src="assets/images/News/Times/times.jpg" class="news-img">
-				<a href="Times Exclusive-Sky Energy Africa.html" class="news-title">Times Exclusive with Schizzo Thomson – Sky Energy Africa MD- 26 August 2023</a>
-				<p class="news-date">by Sky Admin | Feb 16, 2024 | Uncategorized</p>
-			  </div>
-			  <div class="news-item">
-				<img src="assets/images/News/Leads/EV.jpg" class="news-img">
-				<a href="Leadsmalawi.html" class="news-title">Sky Energy Africa Leads Malawi’s Electric Vehicle Revolution Towards a Greener Future</a>
-				<p class="news-date">by Sky Admin | Feb 16, 2024 | Uncategorized</p>
-			  </div>
-		
-			  <div class="news-item">
-				<img src="assets/images/News/Malawi tohave/Citroen_eC3_Desktop.jpg" class="news-img">
-				<a href="Malawi tohave.html" class="news-title">Malawi To Have Electric Cars Soon</a>
-				<p class="news-date">by njunga.gilson | Sep 25, 2023 | Uncategorized</p>
-			  </div>
-			 
-		
-		
-			
-			<div class="news-item">
-			  <img src="assets/images/News/FDH/Chiponde-FDH.jpg" class="news-img">
-			  <a href="fdhnews.html" class="news-title">FDH Financial Holdings Limited invests close
-				to K1 billion in solar energy</a>
-			  <p class="news-date">by Sky Admin | Feb 16, 2024 | Uncategorized</p>
-			</div>
-		
-			<div class="news-item">
-			  <img src="assets/images/News/National bank/National bank.jpg" class="news-img">
-			  <a href="national bank.html" class="news-title">NBM plc partners Sky Energy, 265 Energy for products financing</a>
-			  <p class="news-date">
-				By Malawi Voice October 1, 2024</p>
-			</div>
-		
-			<div class="news-item">
-			  <img src="assets/images/News/Gwamba/Gwamba.jpg" class="news-img">
-			  <a href="Gwamba.html" class="news-title">Sky Energy Africa sponsors Gwamba Concert with K20 million</a>
-			  <p class="news-date">
-				By Chisomo Phiri May 18, 2024</p>
-			</div>
-		
-		
-			<div class="news-item">
-				<img src="assets/images/News/Impresses/Fdhev1.jpg" class="news-img">
-				<a href="Skyenergyimpresses.html" class="news-title">Sky Energy Africa says is impressed that the country is slowly embracing use of 100 percent electric cars.</a>
-				<p class="news-date">
-				  by Times 360 Malawi ,December 17, 2024</p>
-			  </div>
-		
-			</div>
-		  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sky Energy Africa - News</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+    }
 
-<!-- News section end here -->
+    .custom-news-section {
+      max-width: 1300px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .custom-news-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .custom-news-item {
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: calc(25% - 15px);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .custom-news-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .custom-news-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .custom-news-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #2c3e50;
+      text-decoration: none;
+      padding: 15px 15px 0;
+      line-height: 1.4;
+      transition: color 0.3s ease;
+      text-transform: none;
+    }
+
+    .custom-news-title:hover {
+      color: #16a085;
+    }
+
+    .custom-news-date {
+      font-size: 0.9rem;
+      color: #777;
+      padding: 10px 15px 15px;
+    }
+
+    @media (max-width: 768px) {
+      .custom-news-item {
+        width: calc(50% - 10px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .custom-news-item {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="custom-news-section">
+    <div class="custom-news-container">
+
+      <div class="custom-news-item">
+        <img src="assets/images/News/Green Earth/Greenearthtitle.jpg" class="custom-news-img" alt="Green Earth">
+        <a href="Green Earth.html" class="custom-news-title">Sky Energy Africa Launches ‘Green Earth’ Project on Michiru Mountain</a>
+        <p class="custom-news-date">by Sky Admin | Feb 17, 2024 | Uncategorized</p>
+      </div>
+
+      <div class="custom-news-item">
+        <img src="assets/images/News/Times/times.jpg" class="custom-news-img" alt="Times Exclusive">
+        <a href="Times Exclusive-Sky Energy Africa.html" class="custom-news-title">Times Exclusive with Schizzo Thomson – Sky Energy Africa MD - 26 August 2023</a>
+        <p class="custom-news-date">by Sky Admin | Feb 16, 2024 | Uncategorized</p>
+      </div>
+
+      <div class="custom-news-item">
+        <img src="assets/images/News/Leads/EV.jpg" class="custom-news-img" alt="Electric Vehicles">
+        <a href="Leadsmalawi.html" class="custom-news-title">Sky Energy Africa Leads Malawi’s Electric Vehicle Revolution Towards a Greener Future</a>
+        <p class="custom-news-date">by Sky Admin | Feb 16, 2024 | Uncategorized</p>
+      </div>
+
+      <div class="custom-news-item">
+        <img src="assets/images/News/Malawi tohave/Citroen_eC3_Desktop.jpg" class="custom-news-img" alt="Electric Cars in Malawi">
+        <a href="Malawi tohave.html" class="custom-news-title">Malawi To Have Electric Cars Soon</a>
+        <p class="custom-news-date">by njunga.gilson | Sep 25, 2023 | Uncategorized</p>
+      </div>
+
+      <div class="custom-news-item">
+        <img src="assets/images/News/FDH/Chiponde-FDH.jpg" class="custom-news-img" alt="FDH Solar Investment">
+        <a href="fdhnews.html" class="custom-news-title">FDH Financial Holdings Limited Invests Close to K1 Billion in Solar Energy</a>
+        <p class="custom-news-date">by Sky Admin | Feb 16, 2024 | Uncategorized</p>
+      </div>
+
+      <div class="custom-news-item">
+        <img src="assets/images/News/National bank/National bank.jpg" class="custom-news-img" alt="NBM Partnership">
+        <a href="national bank.html" class="custom-news-title">NBM plc Partners Sky Energy, 265 Energy for Products Financing</a>
+        <p class="custom-news-date">by Malawi Voice | October 1, 2024</p>
+      </div>
+
+      <div class="custom-news-item">
+        <img src="assets/images/News/Gwamba/Gwamba.jpg" class="custom-news-img" alt="Gwamba Concert">
+        <a href="Gwamba.html" class="custom-news-title">Sky Energy Africa Sponsors Gwamba Concert with K20 Million</a>
+        <p class="custom-news-date">by Chisomo Phiri | May 18, 2024</p>
+      </div>
+
+      <div class="custom-news-item">
+        <img src="assets/images/News/Impresses/Fdhev1.jpg" class="custom-news-img" alt="Electric Cars Adoption">
+        <a href="Skyenergyimpresses.html" class="custom-news-title">Sky Energy Africa Says It Is Impressed That the Country Is Slowly Embracing Use of 100 Percent Electric Cars</a>
+        <p class="custom-news-date">by Times 360 Malawi | December 17, 2024</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
+
+
   
 
     <!-- Footer Starts Here -->
@@ -277,6 +355,10 @@
           }
       }
     </script>
+
+   
+
+
 
   </body>
 </html>
