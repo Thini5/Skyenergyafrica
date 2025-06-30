@@ -39,6 +39,7 @@
   font-weight: 600;
   color: #2c3e50;
   margin: 12px 0 6px 0;
+  text-transform: none; /* <- This prevents automatic capitalization */
 }
 
 .project-info p {
