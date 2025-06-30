@@ -7,13 +7,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #f5f5f5;
-  color: #333;
-  padding: 0;
-}
 
 /* Utility classes */
  h2, h3 {
@@ -103,36 +96,70 @@ a {
   margin-bottom: 10px;
 }
 
-/* Custom Request Form */
-#custom-request {
-  padding: 40px 20px;
-  background-color: #ffffff;
-}
-
-#custom-request form {
+/* Custom Request Form Container */
+/* Only style this form, not global forms */
+.custom-request-form {
   max-width: 600px;
   margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
 }
 
-#custom-request label {
-  margin-top: 10px;
+.custom-request-form label {
+  margin-top: 15px;
   font-weight: bold;
-}
-
-#custom-request input,
-#custom-request textarea {
-  padding: 10px;
-  margin-top: 5px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
   font-size: 1rem;
+  color: #333;
 }
 
-#custom-request button {
-  margin-top: 20px;
+.custom-request-form input,
+.custom-request-form textarea {
+  margin-top: 6px;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  resize: vertical;
+}
+
+.custom-request-form input:focus,
+.custom-request-form textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.custom-request-form button {
+  margin-top: 25px;
+  padding: 12px 24px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
   align-self: flex-start;
+}
+
+.custom-request-form button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .custom-request-form {
+    padding: 20px;
+  }
+
+  .custom-request-form button {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* Green Finance Section */

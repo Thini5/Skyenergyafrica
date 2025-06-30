@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Destination email
-    $to = "monitoring@skyenergyafrica.com";
+    $to = "sales@skyenergyafrica.com";
 
     // Sanitize input
     $name = htmlspecialchars(trim($_POST['name']));

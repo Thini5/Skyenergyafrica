@@ -73,7 +73,7 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="assets/images/Logo-New.png" alt="Sky Energy africa Logo" style="height: 70px;">
+        <img src="assets/images/Logo-New.png" alt="Sky Energy africa Logo" style="height: 70px; margin-top: -15px;">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -157,20 +157,20 @@
         <a href="solarpanels.html">View Product</a>
       </div>
       <div class="product-card">
-        <img src="assets/images/Products/Inverters/Growatt 3kW/growatt_3kw_48p__84056.jpg" alt="Solar Panel">
+        <img src="assets/images/Products/Inverters/Growatt 3kW/Growattnew.png" alt="Solar Panel">
         <h3>Solar Inverters</h3>
         <p>Reliable solar inverters to convert DC to AC power seamlessly.</p>
         <a href="solar-inverters.html">View Product</a>
       </div>
 
       <div class="product-card">
-        <img src="assets/images/Products/Batteries/SMA Sunny Island 3.0M/SMA Sunny Island 3.0M.png" alt="Solar Panel">
+        <img src="assets/images/Products/Batteries/SMA Sunny Island 3.0M/SMA sunnynew.png" alt="Solar Panel">
         <h3> Solar Batteries</h3>
         <p>Long-lasting solar batteries for energy storage and backup</p>
         <a href="solar-batteries.html">View Product</a>
       </div>
       <div class="product-card">
-        <img src="assets/images/Products/Solar lights/20W Integrated Solar Street Light.jpg" alt="Solar Panel">
+        <img src="assets/images/Products/Solar lights/Streetlight.png" alt="Solar Panel">
         <h3>Solar Lights</h3>
         <p>High-efficiency solar lights for residential and commercial use</p>
         <a href="Solarlights.html">View Product</a>
@@ -178,28 +178,39 @@
     </div>
   </section>
 
-  <!-- Custom System Request Form -->
-  <section id="custom-request">
-    <h2>Request a Custom Solar System</h2>
-    <form>
-      <label>What appliances do you want to power?</label>
-      <textarea name="appliances" required></textarea>
+<!-- Custom System Request Form start -->
+<section id="custom-request">
+  <h2>Request a Custom Solar System</h2>
 
-      <label>Your location</label>
-      <input type="text" name="location" required>
+  <form action="contact.php" method="POST" class="custom-request-form">
+    <!-- Appliances -->
+    <label for="appliances">What appliances do you want to power?</label>
+    <textarea id="appliances" name="appliances" rows="4" required></textarea>
 
-      <label>Contact Name *</label>
-      <input type="text" name="name" required>
+    <!-- Location -->
+    <label for="location">Your location</label>
+    <input type="text" id="location" name="location" required>
 
-      <label>Email *</label>
-      <input type="email" name="email" required>
+    <!-- Name -->
+    <label for="name">Contact Name *</label>
+    <input type="text" id="name" name="name" required>
 
-      <label>Phone *</label>
-      <input type="tel" name="phone" required>
+    <!-- Email -->
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required>
 
-      <button type="submit">Submit Request</button>
-    </form>
-  </section>
+    <!-- Phone -->
+    <label for="phone">Phone *</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit Request</button>
+  </form>
+</section>
+<!-- Custom System Request Form end -->
+
+
+
 
   <!-- Green Finance Section -->
   <section class="green-finance">
