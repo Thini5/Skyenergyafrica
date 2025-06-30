@@ -9,25 +9,28 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Electric Vehicle-SEA</title>
+    <title>Electric Vehicle</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-     <link rel="stylesheet" href="assets/css/EnergyStorageInfrastructure.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
     <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/extenalcss/ev.css">
-    
+    <link rel="stylesheet" href="assets/css/solarsolutions.css">
 
-     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 
      <link rel="icon" type="image/png" href="assets/images/favicon/favicon-96x96.png" sizes="96x96" />
      <link rel="icon" type="image/svg+xml" href="assets/images/favicon/favicon.svg" />
       <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png" />
       <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
+<!--
+
+
+
+-->
   </head>
 
   <body>
@@ -46,7 +49,7 @@
     <div class="sub-header">
       <div class="container">
         <div class="row">
-            <div class="col-md-8 col-xs-12">
+          <div class="col-md-8 col-xs-12">
             <ul class="left-info">
               <li><a href="#"><i class="fa fa-clock-o"></i>Monday - Friday: 8.30-17.00</a></li>
                <li><a href="#"><i class="fa fa-clock-o"></i>Saturday: 9.00-12.00</a></li>
@@ -70,7 +73,7 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="assets/images/Logo-New.png" alt="Sky Energy africa Logo" style="height: 70px;">
+        <img src="assets/images/Logo-New.png" alt="Sky Energy africa Logo" style="height: 70px; margin-top: -15px;">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -149,33 +152,41 @@
     <!-- Add more products -->
   </div>
 </section>
-
- 
+<!-- EV Inquiry Form Start -->
 <section id="ev-inquiry">
   <h2>Request EV Quote or Import</h2>
-  <form>
-    <label>Select Vehicle</label>
-    <select required>
-      <option>Citron Ec3</option>
-      <option>Tata Tiago</option>
-      <option>Other (Specify in Message)</option>
+
+  <form action="contact.php" method="POST" class="custom-request-form">
+    <!-- Vehicle Selection -->
+    <label for="vehicle">Select Vehicle</label>
+    <select id="vehicle" name="vehicle" required>
+      <option value="Citron Ec3">Citron Ec3</option>
+      <option value="Tata Tiago">Tata Tiago</option>
+      <option value="Other">Other (Specify in Message)</option>
     </select>
 
-    <label>Your Name</label>
-    <input type="text" required>
+    <!-- Name -->
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
 
-    <label>Email</label>
-    <input type="email" required>
+    <!-- Email -->
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
 
-    <label>Phone</label>
-    <input type="tel" required>
+    <!-- Phone -->
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" required>
 
-    <label>Message or Specific Request</label>
-    <textarea></textarea>
+    <!-- Message -->
+    <label for="message">Message or Specific Request</label>
+    <textarea id="message" name="message" rows="4"></textarea>
 
+    <!-- Submit -->
     <button type="submit">Send Inquiry</button>
   </form>
 </section>
+<!-- EV Inquiry Form End -->
+
 
 
 

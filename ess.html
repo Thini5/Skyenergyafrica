@@ -9,23 +9,28 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Energy Storage Systems-SEA</title>
+    <title>Energy storage</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-     <link rel="stylesheet" href="assets/css/EnergyStorageInfrastructure.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
     <link rel="stylesheet" href="assets/css/owl.css">
-    
- <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/solarsolutions.css">
+
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 
      <link rel="icon" type="image/png" href="assets/images/favicon/favicon-96x96.png" sizes="96x96" />
      <link rel="icon" type="image/svg+xml" href="assets/images/favicon/favicon.svg" />
       <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png" />
       <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
+<!--
+
+
+
+-->
   </head>
 
   <body>
@@ -44,7 +49,7 @@
     <div class="sub-header">
       <div class="container">
         <div class="row">
-         <div class="col-md-8 col-xs-12">
+          <div class="col-md-8 col-xs-12">
             <ul class="left-info">
               <li><a href="#"><i class="fa fa-clock-o"></i>Monday - Friday: 8.30-17.00</a></li>
                <li><a href="#"><i class="fa fa-clock-o"></i>Saturday: 9.00-12.00</a></li>
@@ -68,7 +73,7 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="assets/images/Logo-New.png" alt="Sky Energy africa Logo" style="height: 70px;">
+        <img src="assets/images/Logo-New.png" alt="Sky Energy africa Logo" style="height: 70px; margin-top: -15px;">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -115,66 +120,83 @@
       </div>
     </div>
 
-
-
-			<main>
-
-  <section class="what-we-offer">
-  <h2>What We Provide</h2>
-  <ul>
-    <li>🔋 Indoor & Outdoor Battery Cabinets</li>
+<!-- How It Works Section -->
+  <section class="how-it-works">
+    <div class="column">
+      <h2>What We Provide</h2>
+      <li>🔋 Indoor & Outdoor Battery Cabinets</li>
     <li>🧰 Rack Mount Storage Systems</li>
     <li>🧠 Battery Management Systems (BMS)</li>
     <li>⚡ System Design for Backup & Load Management</li>
   </ul>
-</section>
-
-  <section id="storage-products">
-  <h2>Featured Storage Infrastructure</h2>
-  <div class="product-grid">
-    <div class="product-card">
-      <img src="assets/images/Products/Energy storage/batterieschrank-22he-600x600mm-fuer-pylontech-bat.webp" alt="Battery Cabinet">
-      <h3>LITHIUM CABINET 22 U</h3>
-      
     </div>
-    <div class="product-card">
-      <img src="assets/images/Products/Energy storage/Untitled-1.jpg" alt="Outdoor Battery Enclosure">
-      <h3>Outdoor Battery Enclosure (IP65)</h3>
-      
+    <div class="column">
+      <h2>Just Want Products?</h2>
+      <p>Shop our trusted solar components.</p>
+      <ul>
+        <li><a href="#">Solar Panels</a></li>
+        <li><a href="#">Inverters</a></li>
+        <li><a href="#">Batteries</a></li>
+      </ul>
     </div>
-    <!-- Add more products -->
-  </div>
-</section>
+  </section>
+ 
+<!-- Product Catalog Preview -->
+  <section id="product-catalog">
+    <h2>Featured Storage Infrastructure</h2>
+    <div class="product-grid">
+      <!-- Repeat for each product -->
+      <div class="product-card">
+        <img src="assets/images/Products/Energy storage/batteryshack.png" alt="Battery Cabinet">
+        <h3>LITHIUM CABINET 22 U</h3>
+      </div>
+      <div class="product-card">
+        <img src="assets/images/Products/Energy storage/Untitled-1.jpg" alt="Outdoor Battery Enclosure">
+        <h3>Outdoor Battery Enclosure (IP65)</h3>
+      </div>
+    </div>
+  </section>
 
-  <section id="storage-request">
+  <!-- Custom Storage System Request Form Start -->
+<section id="storage-request">
   <h2>Need a Custom Storage System?</h2>
-  <form>
-    <label>What is your application?</label>
-    <select required>
-      <option>Home Backup</option>
-      <option>Business Backup</option>
-      <option>Off-grid System</option>
-      <option>Other</option>
+
+  <form action="contact.php" method="POST" class="custom-request-form">
+    <!-- Application Type -->
+    <label for="application">What is your application?</label>
+    <select id="application" name="application" required>
+      <option value="Home Backup">Home Backup</option>
+      <option value="Business Backup">Business Backup</option>
+      <option value="Off-grid System">Off-grid System</option>
+      <option value="Other">Other</option>
     </select>
 
-    <label>Required Capacity (kWh)</label>
-    <input type="number" placeholder="e.g. 10" required>
+    <!-- Required Capacity -->
+    <label for="capacity">Required Capacity (kWh)</label>
+    <input type="number" id="capacity" name="capacity" placeholder="e.g. 10" required>
 
-    <label>Where will it be installed?</label>
-    <input type="text" required>
+    <!-- Installation Location -->
+    <label for="install_location">Where will it be installed?</label>
+    <input type="text" id="install_location" name="install_location" required>
 
-    <label>Your Name</label>
-    <input type="text" required>
+    <!-- Name -->
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
 
-    <label>Email</label>
-    <input type="email" required>
+    <!-- Email -->
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
 
-    <label>Phone</label>
-    <input type="tel" required>
+    <!-- Phone -->
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" required>
 
+    <!-- Submit Button -->
     <button type="submit">Request Quote</button>
   </form>
 </section>
+<!-- Custom Storage System Request Form End -->
+
 
  <section class="green-finance">
   <h2>Green Financing Available</h2>
