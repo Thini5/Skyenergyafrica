@@ -1,0 +1,17 @@
+
+/* Monitoring start */
+.card-title {
+  font-weight: bold;
+  color: #00a904;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+/* Monitoring end */
