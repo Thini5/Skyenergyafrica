@@ -22,7 +22,7 @@
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
-	background-color: #a4c639;
+	background-image: linear-gradient(135deg, #007835, #272a8b); /* example green shades */
   	font-size: 20px;
   	color: #121212;
   	letter-spacing: 0.5px;
